@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "mode": "warn",
+  "minConfidence": 0.7,
+  "minSeverity": "medium",
+  "strictMode": false,
+  "ignoredPaths": [
+    "node_modules",
+    "dist",
+    "build",
+    "coverage",
+    ".next",
+    ".git",
+    ".comment-rot",
+    "package-lock.json",
+    "yarn.lock",
+    "pnpm-lock.yaml",
+    "*.min.js",
+    "generated",
+    "vendor"
+  ],
+  "languages": ["javascript", "typescript", "python"],
+  "scanWholeFile": false
+}

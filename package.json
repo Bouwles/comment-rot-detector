@@ -1,0 +1,18 @@
+{
+  "name": "comment-rot-detector",
+  "version": "0.1.0",
+  "description": "Claude Code plugin that detects comment rot — comments that no longer match the code after edits — using layered semantic analysis instead of regex.",
+  "main": "src/index.js",
+  "bin": {
+    "comment-rot": "src/index.js"
+  },
+  "scripts": {
+    "scan": "node src/index.js scan",
+    "test": "node test/run.js"
+  },
+  "keywords": ["claude-code", "plugin", "comments", "linter", "semantic", "comment-rot"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}

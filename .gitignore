@@ -1,0 +1,7 @@
+# Runtime artifacts — keep config.json, ignore the rest of .comment-rot
+.comment-rot/cache/
+.comment-rot/reports/
+node_modules/
+
+# other tools' caches
+.impeccable/

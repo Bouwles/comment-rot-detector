@@ -1,0 +1,10 @@
+{
+  "name": "comment-rot",
+  "version": "0.1.0",
+  "description": "Detects comment rot. Comments that no longer match the code they describe after edits. Uses layered semantic analysis (heuristics + code summary + LLM agent review) instead of regex, so it catches logic-vs-comment contradictions a normal linter cannot.",
+  "author": {
+    "name": "Paul Nercessian"
+  },
+  "keywords": ["comments", "linter", "semantic", "hook", "code-quality", "documentation"],
+  "hooks": "./hooks/hooks.json"
+}
