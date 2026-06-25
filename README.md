@@ -84,13 +84,14 @@ edit ──► PostToolUse hook ──► changed-region detection (git diff / c
 
 ## Installation
 
-This is a standard Claude Code plugin. From a marketplace that includes it:
+This repo is its own Claude Code marketplace. In Claude Code (VS Code extension or CLI):
 
 ```
-/plugin install comment-rot
+/plugin marketplace add Bouwles/comment-rot-detector
+/plugin install comment-rot@comment-rot-detector
 ```
 
-Or point Claude Code at this directory as a local plugin. It requires only **Node.js ≥ 16** — there are **no npm dependencies to install**.
+Then reload when prompted. (`/plugin` opens the plugin UI if you prefer clicking.) It requires only **Node.js ≥ 16** — there are **no npm dependencies to install**.
 
 Verify it works:
 

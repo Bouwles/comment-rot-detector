@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "comment-rot-detector",
+  "description": "Semantic comment-rot detection for Claude Code. Flags comments that stop matching the code after edits.",
+  "owner": {
+    "name": "Bouwles",
+    "url": "https://github.com/Bouwles"
+  },
+  "plugins": [
+    {
+      "name": "comment-rot",
+      "description": "Detects comment rot — comments that no longer match the code they describe — with layered semantic analysis instead of regex. PostToolUse hook + /comment-rot:scan and :fix commands.",
+      "source": "./",
+      "category": "code-quality",
+      "tags": ["comments", "linter", "semantic", "hook", "documentation", "code-quality"]
+    }
+  ]
+}
